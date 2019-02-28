@@ -21,7 +21,7 @@ public class RomanAdditionnerTest {
 
 	@Test
 	public void test() {
-		assertEquals(new String("MII"), addition.compute("I", "I","+"));
+		assertEquals(new String("II"), addition.compute("I", "I","+"));
 	}
 
 }
